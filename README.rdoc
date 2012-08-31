@@ -6,7 +6,7 @@ Salesforce Bulk Oauth2 is an extension of jorgevaldivia's Salesforce Bulk ruby g
  
 ==Installation
 
-sudo gem install salesforce_bulk
+   gem install salesforce_bulk_oauth2
 
 ==How to use
 
@@ -14,7 +14,7 @@ Using this gem is simple and straight forward.
 
 To initialize:
 
-  require 'salesforce_bulk'
+  require 'salesforce_bulk_oauth2'
   salesforce = SalesforceBulk::Api.new(:token=>"YOUR_SALESFORCE_TOKEN", :instance_url=>"YOUR_SALESFORCE_INSTANCE_URL")
 
 Sample operations:

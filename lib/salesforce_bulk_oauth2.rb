@@ -2,9 +2,9 @@ require 'net/https'
 require 'rubygems'
 require 'xmlsimple'
 require 'csv'
-require "./lib/version"
-require "./lib/job"
-require "./lib/connection"
+require "#{File.dirname(File.expand_path(__FILE__))}/salesforce_bulk/version"
+require "#{File.dirname(File.expand_path(__FILE__))}/salesforce_bulk/job"
+require "#{File.dirname(File.expand_path(__FILE__))}/salesforce_bulk/connection"
 require 'databasedotcom'
 
 module SalesforceBulk
